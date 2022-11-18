@@ -10,7 +10,7 @@ client.once(Events.ClientReady, async c => {
 	
 	console.log(`Ready! Logged in as ${c.user.tag}`);
 	//Définir le guild et channel ou envoyer les messages:
-	const channel = client.guilds.cache.get("710601053212508240").channels.cache.get("1042539916141269003")
+	const channel = client.guilds.cache.get("GUILD_ID").channels.cache.get("CHANNEL_ID")
 	
 	//Récupérer les données de l'API toutes les 10 secondes:
 	setInterval(() => {
